@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.field{
+    width: 180px;
+    height: 80px;
+    margin-top: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    background: linear-gradient(to right,white,grey);
+}
+
+p{
+    float: left;
+    font-size: 18px;
+    color: #070707;
+    line-height: 46px;
+    margin-left: 15px;
+}
+
+p:nth-child(2){
+    margin-left: 80px;
+    color: white;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    background: #505256;
+    line-height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.8s;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+
+.circle:hover{
+    background-color: #c5bfc3;
+}
+
+.title{
+    margin-top: 80px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 4px 8px;
+    cursor: default;
+}
